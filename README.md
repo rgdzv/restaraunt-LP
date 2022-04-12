@@ -10,7 +10,8 @@
 - how to use SASS (scss syntax),
 - how to implement fonts without Google fonts,
 - how to use JQuery (not today :)),
-- how to implement media-queries
+- how to implement media-queries,
+- hot to create svg-sprites
 
 ## Cooperation
 

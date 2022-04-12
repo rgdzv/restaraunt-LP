@@ -1,0 +1,62 @@
+.intro {
+    width: 100%;
+    height: 850px;
+    background: url("../img/intro-bg.jpg") center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.intro__content {
+    display: flex;
+    flex-direction: column;
+    padding: 360px 0 345px 0;
+
+    @media #{$middle} {
+      padding-bottom: 320px;
+    }
+}
+
+.intro__title {
+    font-family: 'Proxima Nova A';
+    font-size: 4.8rem;
+    font-weight: 100;
+    color: $white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+    @media #{$middle} {
+      font-size: 4rem;
+    }
+
+    @media #{$mobile} {
+      font-size: 2.7rem;
+    }
+
+    @media #{$smallMobiles} {
+      font-size: 2.5rem;
+    }
+}
+
+.intro__text {
+    font-family: 'Proxima Nova A';
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: $white;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+// Animation of title and text
+
+[data-aos="intro-animation"]{
+    transform: translateY(60px);
+    opacity: 0;
+
+    &.aos-animate {
+        transform: translateY(0);
+        opacity: 1;
+      }
+}
+

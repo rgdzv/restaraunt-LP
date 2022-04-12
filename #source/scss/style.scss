@@ -1,0 +1,102 @@
+// Null all styles
+
+@import "nullstyle.scss";
+
+
+// Vars
+
+@import "vars.scss";
+
+
+// Blocks
+
+@import "container.scss";
+@import "header.scss";
+@import "intro.scss";
+@import "story.scss";
+@import "recipy.scss";
+@import "menu.scss";
+@import "portfolio.scss";
+@import "contacts.scss";
+@import "footer.scss";
+
+
+// Fonts
+
+@font-face {
+    font-family: 'Forever Brush Script';
+    src: url('../fonts/ForeverBrushScript.eot');
+    src: url('../fonts/ForeverBrushScript.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ForeverBrushScript.woff2') format('woff2'),
+        url('../fonts/ForeverBrushScript.woff') format('woff'),
+        url('../fonts/ForeverBrushScript.ttf') format('truetype'),
+        url('../fonts/ForeverBrushScript.svg#ForeverBrushScript') format('svg');
+    font-weight: 400;
+    font-style: none;
+}
+
+@font-face {
+    font-family: 'Proxima Nova A';
+    src: url('../fonts/ProximaNovaA-RegularCondensed.eot');
+    src: url('../fonts/ProximaNovaA-RegularCondensed.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNovaA-RegularCondensed.woff2') format('woff2'),
+        url('../fonts/ProximaNovaA-RegularCondensed.woff') format('woff'),
+        url('../fonts/ProximaNovaA-RegularCondensed.ttf') format('truetype'),
+        url('../fonts/ProximaNovaA-RegularCondensed.svg#ProximaNovaA-RegularCondensed') format('svg');
+    font-weight: 400;
+    font-style: none;
+}
+
+@font-face {
+    font-family: 'Proxima Nova A';
+    src: url('../fonts/ProximaNovaA-ThinCondensed.eot');
+    src: url('../fonts/ProximaNovaA-ThinCondensed.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNovaA-ThinCondensed.woff2') format('woff2'),
+        url('../fonts/ProximaNovaA-ThinCondensed.woff') format('woff'),
+        url('../fonts/ProximaNovaA-ThinCondensed.ttf') format('truetype'),
+        url('../fonts/ProximaNovaA-ThinCondensed.svg#ProximaNovaA-ThinCondensed') format('svg');
+    font-weight: 100;
+    font-style: none;
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Brands';
+    src: url('../fonts/FontAwesome5BrandsRegular.eot');
+    src: url('../fonts/FontAwesome5BrandsRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FontAwesome5BrandsRegular.woff2') format('woff2'),
+        url('../fonts/FontAwesome5BrandsRegular.woff') format('woff'),
+        url('../fonts/FontAwesome5BrandsRegular.ttf') format('truetype'),
+        url('../fonts/FontAwesome5BrandsRegular.svg#FontAwesome5BrandsRegular') format('svg');
+    font-weight: 400;
+    font-style: none;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.eot');
+    src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff'),
+        url('../fonts/Roboto-Regular.ttf') format('truetype'),
+        url('../fonts/Roboto-Regular.svg#Roboto-Regular') format('svg');
+    font-weight: 400;
+    font-style: none;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.eot');
+    src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../fonts/Roboto-Bold.woff') format('woff'),
+        url('../fonts/Roboto-Bold.ttf') format('truetype'),
+        url('../fonts/Roboto-Bold.svg#Roboto-Bold') format('svg');
+    font-weight: 700;
+    font-style: none;
+}
+
+
+
+
+
+

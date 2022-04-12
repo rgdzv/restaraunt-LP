@@ -1,0 +1,108 @@
+.footer {
+    width: 100%;
+    height: 120px;
+    background-color: #16171b;
+    display: flex;
+    align-items: center;
+
+    @media #{$smallDesktops} {
+        height: 160px;
+    }
+
+    @media #{$mobile} {
+        height: 260px;
+    }
+}
+
+.footer__content {
+    display: flex;
+    flex-wrap: wrap;
+
+    @media #{$Desktops} {
+        justify-content: center;
+    }
+}
+
+.footer__item {
+    display: flex;
+    justify-content: center;
+    width: 33.333%;
+
+    @media #{$Desktops} {
+        width: 50%;
+        margin-bottom: 30px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    @media #{$smallDesktops} {
+        width: 100%;
+    }
+}
+
+.footer__text {
+    font-family: 'Roboto';
+    font-size: 1.06rem;
+    font-weight: 400;
+    color: #6c6d6f;
+    letter-spacing: 1px;
+}
+
+.footer__links {
+
+    a {
+        font-family: 'Roboto';
+        font-size: 1.06rem;
+        font-weight: 400;
+        color: $white;
+        opacity: 0.5;
+        letter-spacing: 1px;
+        margin-right: 20px;
+        transition: opacity .2s linear;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &:hover {
+           opacity: 1;
+        }
+
+        @media #{$mobile} {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-right: 0;
+            margin-bottom: 15px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.footer__social {
+
+    a {
+        svg {
+            width: 15px;
+            height: 15px;
+            fill: $white;
+            margin: 0 1rem;
+            opacity: 0.5;
+            transition: opacity .2s linear;
+            margin: 0 20px 0 0;
+
+            &:hover {
+                opacity: 1;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,109 @@
+.story {
+    width: 100%;
+    height: 640px;
+    background-color: #bd2929;
+
+     @media #{$smallDesktops} {
+        height: 940px;
+    }
+
+    @media #{$mobile} {
+        height: 885px;
+    }
+}
+
+.story__content {
+    display: flex;
+    justify-content: center;
+    padding: 120px 0;
+
+    @media #{$smallDesktops} {
+         flex-wrap: wrap;
+         padding: 120px 0 0;
+    }
+}
+
+.story__left {
+    width: 445px;
+    height: 400px;
+    margin-right: 110px;
+    position: relative;
+
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    @media #{$smallDesktops} {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+    }
+}
+
+.story__right {
+    width: 515px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media #{$mobile} {
+        height: 300px;
+        justify-content: flex-start;
+    }
+
+    @media #{$smallMobiles} {
+        margin-top: -60px;
+    }
+}
+
+.story__title {
+    font-family: 'Forever Brush Script';
+    font-size: 3.73rem;
+    font-weight: 400;
+    color: $white;
+
+    &:after {
+        display: block;
+        content: "";
+        width: 110px;
+        height: 2px;
+        margin: 15px auto 45px;
+        background-color: $white;
+    }
+}
+
+.story__text {
+    font-family: 'Proxima Nova A';
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: $white;
+    text-align: center;
+    line-height: 1.5;
+}
+
+// Animation of image, title and text
+
+[data-aos="story-image-animation"]{
+    transform: translateY(-50px);
+    opacity: 0;
+
+    &.aos-animate {
+        transform: translateY(0);
+        opacity: 1;
+      }
+}
+
+[data-aos="story-right-animation"]{
+    transform: translateY(50px);
+    opacity: 0;
+
+    &.aos-animate {
+        transform: translateY(0);
+        opacity: 1;
+      }
+}

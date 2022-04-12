@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Document</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+<!--Header-->
+<div class="header" id="header">
+    <div class="container">
+        <div class="header__content">
+            <div class="header__logo" data-aos="header-animation">Restaurant</div>
+            <nav class="header__nav" id="nav">
+                <a href="#" data-aos="header-animation" data-scroll="#intro">Home</a>
+                <a href="#" data-aos="header-animation" data-scroll="#story">About Us</a>
+                <a href="#" data-aos="header-animation" data-scroll="#menu">Menu</a>
+                <a href="#" data-aos="header-animation" data-scroll="#recipy">Faq</a>
+                <a href="#" data-aos="header-animation">Page</a>
+                <a href="#" data-aos="header-animation" data-scroll="#contacts">Contact</a>
+            </nav>
+            <button class="header__burger" type="button" data-aos="burger-animation" id="navToggle">
+                <span class="burger__icon"></span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<!--Intro-->
+<div class="intro" id="intro">
+    <div class="container">
+        <div class="intro__content" data-aos="intro-animation">
+            <div class="intro__title">Grandrestaurant</div>
+            <div class="intro__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt<br>ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</div>
+        </div>
+    </div>
+</div>
+
+<!--Our story-->
+<div class="story" id="story">
+    <div class="container">
+        <div class="story__content">
+            <div class="story__left">
+                <div class="story__image" data-aos="story-image-animation">
+                    <img src="img/story-img.jpg" alt="story-img">
+                </div>
+            </div>
+            <div class="story__right" data-aos="story-right-animation">
+                <div class="story__title">Our Story</div>
+                <div class="story__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Recipy-->
+<div class="recipy" id="recipy">
+    <div class="container">
+        <div class="recipy__content" data-aos="recipy-animation">
+            <div class="recipy__title">Singatures Recipes</div>
+            <div class="recipy__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do<br>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut<br>enim ad minim veniam, quis nostrud exercitation ullamco laboris<br>nisi ut aliquip ex ea commodo consequat</div>
+        </div>
+    </div>
+</div>
+
+<!--Menu-->
+<div class="menu" id="menu">
+    <div class="container">
+        <div class="menu__content">
+            <div class="menu__head" data-aos="menu-head-animation">
+                <div class="menu__title">Our menu</div>
+            </div>
+            <div class="menu__body">
+                <div class="menu__item" data-aos="menu-item-animation">
+                    <div class="menu__dish">
+                        <div class="menu__dish__nameandprice">
+                            <div class="menu__dish__name">TOASTED BREADS &amp; BEEF DRIPPING BUTTER</div>
+                            <div class="menu__dish__price">20$</div>
+                        </div>
+                        <div class="menu__dish__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    </div>
+                    <div class="menu__dish">
+                        <div class="menu__dish__nameandprice">
+                            <div class="menu__dish__name">BREAD BOARD PLATTER</div>
+                            <div class="menu__dish__price">30$</div>
+                        </div>
+                        <div class="menu__dish__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    </div>
+                    <div class="menu__dish">
+                        <div class="menu__dish__nameandprice">
+                            <div class="menu__dish__name">STICKY CHIPOTLE CHICKEN</div>
+                            <div class="menu__dish__price">26$</div>
+                        </div>
+                        <div class="menu__dish__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    </div>
+                    <div class="menu__dish">
+                        <div class="menu__dish__nameandprice">
+                            <div class="menu__dish__name">SALT &amp; PEPPER CALAMARI</div>
+                            <div class="menu__dish__price">14$</div>
+                        </div>
+                        <div class="menu__dish__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    </div>
+                </div>
+                <div class="menu__item" data-aos="menu-item-animation">
+                    <div class="menu__dish">
+                        <div class="menu__dish__nameandprice">
+                            <div class="menu__dish__name">CLUCK &amp; DUCK WINGS</div>
+                            <div class="menu__dish__price">18$</div>
+                        </div>
+                        <div class="menu__dish__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    </div>
+                    <div class="menu__dish">
+                        <div class="menu__dish__nameandprice">
+                            <div class="menu__dish__name">BEEF &amp; BONE MARROW BON BONS</div>
+                            <div class="menu__dish__price">2$</div>
+                        </div>
+                        <div class="menu__dish__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    </div>
+                    <div class="menu__dish">
+                        <div class="menu__dish__nameandprice">
+                            <div class="menu__dish__name">GARLIC KING PRAWNS</div>
+                            <div class="menu__dish__price">36$</div>
+                        </div>
+                        <div class="menu__dish__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    </div>
+                    <div class="menu__dish">
+                        <div class="menu__dish__nameandprice">
+                            <div class="menu__dish__name">ANTIPASTI PLATE</div>
+                            <div class="menu__dish__price">16$</div>
+                        </div>
+                        <div class="menu__dish__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Portfolio-->
+<div class="portfolio">
+    <div class="portfolio__content">
+        <div class="slider" id="portf_slider">
+            <div>
+                <div class="portfolio__item">
+                    <a href="#">
+                        <img src="img/portfolio-image-1.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="portfolio__item">
+                    <a href="#">
+                        <img src="img/portfolio-image-2.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="portfolio__item">
+                    <a href="#">
+                        <img src="img/portfolio-image-3.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="portfolio__item">
+                    <a href="#">
+                        <img src="img/portfolio-image-1.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="portfolio__item">
+                    <a href="#">
+                        <img src="img/portfolio-image-2.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="portfolio__item">
+                    <a href="#">
+                        <img src="img/portfolio-image-3.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Contacts-->
+<div class="contacts" id="contacts">
+    <div class="container">
+        <div class="contacts__content">
+            <div class="contacts__item">
+                <div class="contacts__title">Restaurant</div>
+                <div class="contacts__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</div>
+            </div>
+            <div class="contacts__item_2">
+                <div class="contacts__title_2">Sitemap</div>
+                <div class="contacts__text">
+                    <a class="contacts__text__inside">What we do</a>
+                    <a class="contacts__text__inside">Who we are</a>
+                    <a class="contacts__text__inside">Projects</a>
+                </div>
+            </div>
+            <div class="contacts__item_2">
+                <div class="contacts__title_2">Category</div>
+                <div class="contacts__text">
+                    <a class="contacts__text__inside">Concreting</a>
+                    <a class="contacts__text__inside">Decoration</a>
+                    <a class="contacts__text__inside">Building</a>
+                </div>
+            </div>
+            <div class="contacts__item_2">
+                <div class="contacts__title_2">Menu</div>
+                <div class="contacts__text">
+                    <a class="contacts__text__inside">About us</a>
+                    <a class="contacts__text__inside">Services</a>
+                    <a class="contacts__text__inside">Projects</a>
+                </div>
+            </div>
+            <div class="contacts__item_2">
+                <div class="contacts__title_2">Contact us</div>
+                <div class="contacts__information">
+                    <div class="contacts__touch">
+                        <div class="contacts__img">
+                            <img src="img/contacts-1.png" alt="">
+                        </div>
+                        <div class="contacts__link">855-5564-65651</div>
+                    </div>
+                    <div class="contacts__touch">
+                        <div class="contacts__img">
+                            <img src="img/contacts-2.png" alt="">
+                        </div>
+                        <div class="contacts__link">Adress streets City</div>
+                    </div>
+                    <div class="contacts__touch">
+                        <div class="contacts__img">
+                            <img src="img/contacts-3.png" alt="">
+                        </div>
+                        <div class="contacts__link">your.mail@domains.com</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Footer-->
+<div class="footer">
+    <div class="container">
+        <div class="footer__content">
+            <div class="footer__item">
+                <div class="footer__text">Copyrights free-psd-templates.com</div>
+            </div>
+            <div class="footer__item">
+                <div class="footer__links">
+                    <a href="#">Support</a>
+                    <a href="#">Contact us</a>
+                    <a href="#">Disclaimer</a>
+                    <a href="#">Add more</a>
+                </div>
+            </div>
+            <div class="footer__item">
+                <div class="footer__social">
+                    <a href="#">
+                        <svg>
+                            <use xlink:href="#Facebook"></use>
+                        </svg>
+                        <svg>
+                            <use xlink:href="#Behance"></use>
+                        </svg>
+                        <svg>
+                            <use xlink:href="#Twitter"></use>
+                        </svg>
+                        <svg>
+                            <use xlink:href="#Instagram"></use>
+                        </svg>
+                        <svg>
+                            <use xlink:href="#Pinterest"></use>
+                        </svg>
+                        <svg>
+                            <use xlink:href="#Dribbble"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Social Icons-->
+<svg style="display: none">
+   <symbol id="Facebook" viewBox="0 0 96.124 96.123">
+        <g>
+            <path d="M72.089,0.02L59.624,0C45.62,0,36.57,9.285,36.57,23.656v10.907H24.037c-1.083,0-1.96,0.878-1.96,1.961v15.803
+        c0,1.083,0.878,1.96,1.96,1.96h12.533v39.876c0,1.083,0.877,1.96,1.96,1.96h16.352c1.083,0,1.96-0.878,1.96-1.96V54.287h14.654
+        c1.083,0,1.96-0.877,1.96-1.96l0.006-15.803c0-0.52-0.207-1.018-0.574-1.386c-0.367-0.368-0.867-0.575-1.387-0.575H56.842v-9.246
+        c0-4.444,1.059-6.7,6.848-6.7l8.397-0.003c1.082,0,1.959-0.878,1.959-1.96V1.98C74.046,0.899,73.17,0.022,72.089,0.02z"/>
+        </g>
+   </symbol>
+   <symbol id="Behance" viewBox="0 0 511.958 511.958">
+       <g>
+        <path d="M210.624,240.619c10.624-5.344,18.656-11.296,24.16-17.728c9.792-11.584,14.624-26.944,14.624-45.984
+                c0-18.528-4.832-34.368-14.496-47.648c-16.128-21.632-43.424-32.704-82.016-33.28H0v312.096h142.56
+                c16.064,0,30.944-1.376,44.704-4.192c13.76-2.848,25.664-8.064,35.744-15.68c8.96-6.624,16.448-14.848,22.4-24.544
+                c9.408-14.656,14.112-31.264,14.112-49.76c0-17.92-4.128-33.184-12.32-45.728C238.912,255.627,226.752,246.443,210.624,240.619z
+                 M63.072,150.187h68.864c15.136,0,27.616,1.632,37.408,4.864c11.328,4.704,16.992,14.272,16.992,28.864
+                c0,13.088-4.32,22.24-12.864,27.392c-8.608,5.152-19.776,7.744-33.472,7.744H63.072V150.187z M171.968,348.427
+                c-7.616,3.68-18.336,5.504-32.064,5.504H63.072v-83.232h77.888c13.568,0.096,24.128,1.888,31.68,5.248
+                c13.44,6.08,20.128,17.216,20.128,33.504C192.768,328.651,185.856,341.579,171.968,348.427z"/>
+            <rect x="327.168" y="110.539" width="135.584" height="38.848"/>
+            <path d="M509.856,263.851c-2.816-18.08-9.024-33.984-18.688-47.712c-10.592-15.552-24.032-26.944-40.384-34.144
+                c-16.288-7.232-34.624-10.848-55.04-10.816c-34.272,0-62.112,10.72-83.648,32c-21.472,21.344-32.224,52.032-32.224,92.032
+                c0,42.656,11.872,73.472,35.744,92.384c23.776,18.944,51.232,28.384,82.4,28.384c37.728,0,67.072-11.232,88.032-33.632
+                c13.408-14.144,20.992-28.064,22.656-41.728H446.24c-3.616,6.752-7.808,12.032-12.608,15.872
+                c-8.704,7.04-20.032,10.56-33.92,10.56c-13.216,0-24.416-2.912-33.76-8.704c-15.424-9.28-23.488-25.536-24.512-48.672h170.464
+                C512.16,289.739,511.52,274.411,509.856,263.851z M342.976,269.835c2.24-15.008,7.68-26.912,16.32-35.712
+                c8.64-8.768,20.864-13.184,36.512-13.216c14.432,0,26.496,4.128,36.32,12.416c9.696,8.352,15.168,20.48,16.288,36.512H342.976z"
+                />
+       </g>
+   </symbol>
+   <symbol id="Twitter" viewBox="0 0 310 310">
+       <g>
+            <path id="XMLID_827_" d="M302.973,57.388c-4.87,2.16-9.877,3.983-14.993,5.463c6.057-6.85,10.675-14.91,13.494-23.73
+        c0.632-1.977-0.023-4.141-1.648-5.434c-1.623-1.294-3.878-1.449-5.665-0.39c-10.865,6.444-22.587,11.075-34.878,13.783
+        c-12.381-12.098-29.197-18.983-46.581-18.983c-36.695,0-66.549,29.853-66.549,66.547c0,2.89,0.183,5.764,0.545,8.598
+        C101.163,99.244,58.83,76.863,29.76,41.204c-1.036-1.271-2.632-1.956-4.266-1.825c-1.635,0.128-3.104,1.05-3.93,2.467
+        c-5.896,10.117-9.013,21.688-9.013,33.461c0,16.035,5.725,31.249,15.838,43.137c-3.075-1.065-6.059-2.396-8.907-3.977
+        c-1.529-0.851-3.395-0.838-4.914,0.033c-1.52,0.871-2.473,2.473-2.513,4.224c-0.007,0.295-0.007,0.59-0.007,0.889
+        c0,23.935,12.882,45.484,32.577,57.229c-1.692-0.169-3.383-0.414-5.063-0.735c-1.732-0.331-3.513,0.276-4.681,1.597
+        c-1.17,1.32-1.557,3.16-1.018,4.84c7.29,22.76,26.059,39.501,48.749,44.605c-18.819,11.787-40.34,17.961-62.932,17.961
+        c-4.714,0-9.455-0.277-14.095-0.826c-2.305-0.274-4.509,1.087-5.294,3.279c-0.785,2.193,0.047,4.638,2.008,5.895
+        c29.023,18.609,62.582,28.445,97.047,28.445c67.754,0,110.139-31.95,133.764-58.753c29.46-33.421,46.356-77.658,46.356-121.367
+        c0-1.826-0.028-3.67-0.084-5.508c11.623-8.757,21.63-19.355,29.773-31.536c1.237-1.85,1.103-4.295-0.33-5.998
+        C307.394,57.037,305.009,56.486,302.973,57.388z"/>
+        </g>
+   </symbol>
+   <symbol id="Instagram" viewBox="0 0 169.063 169.063">
+        <g>
+            <path d="M122.406,0H46.654C20.929,0,0,20.93,0,46.655v75.752c0,25.726,20.929,46.655,46.654,46.655h75.752
+        c25.727,0,46.656-20.93,46.656-46.655V46.655C169.063,20.93,148.133,0,122.406,0z M154.063,122.407
+        c0,17.455-14.201,31.655-31.656,31.655H46.654C29.2,154.063,15,139.862,15,122.407V46.655C15,29.201,29.2,15,46.654,15h75.752
+        c17.455,0,31.656,14.201,31.656,31.655V122.407z"/>
+    <path d="M84.531,40.97c-24.021,0-43.563,19.542-43.563,43.563c0,24.02,19.542,43.561,43.563,43.561s43.563-19.541,43.563-43.561
+        C128.094,60.512,108.552,40.97,84.531,40.97z M84.531,113.093c-15.749,0-28.563-12.812-28.563-28.561
+        c0-15.75,12.813-28.563,28.563-28.563s28.563,12.813,28.563,28.563C113.094,100.281,100.28,113.093,84.531,113.093z"/>
+    <path d="M129.921,28.251c-2.89,0-5.729,1.17-7.77,3.22c-2.051,2.04-3.23,4.88-3.23,7.78c0,2.891,1.18,5.73,3.23,7.78
+        c2.04,2.04,4.88,3.22,7.77,3.22c2.9,0,5.73-1.18,7.78-3.22c2.05-2.05,3.22-4.89,3.22-7.78c0-2.9-1.17-5.74-3.22-7.78
+        C135.661,29.421,132.821,28.251,129.921,28.251z"/>
+        </g>
+   </symbol>
+   <symbol id="Pinterest" viewBox="0 0 438.529 438.529">
+        <g>
+            <path d="M409.141,109.203c-19.608-33.592-46.205-60.189-79.798-79.796C295.751,9.801,259.065,0,219.281,0
+        C179.5,0,142.812,9.801,109.22,29.407c-33.597,19.604-60.194,46.201-79.8,79.796C9.809,142.8,0.008,179.485,0.008,219.267
+        c0,44.35,12.085,84.611,36.258,120.767c24.172,36.172,55.863,62.912,95.073,80.232c-0.762-20.365,0.476-37.209,3.709-50.532
+        l28.267-119.348c-4.76-9.329-7.139-20.93-7.139-34.831c0-16.175,4.089-29.689,12.275-40.541
+        c8.186-10.85,18.177-16.274,29.979-16.274c9.514,0,16.841,3.14,21.982,9.42c5.142,6.283,7.705,14.181,7.705,23.7
+        c0,5.896-1.099,13.084-3.289,21.554c-2.188,8.471-5.041,18.273-8.562,29.409c-3.521,11.132-6.045,20.036-7.566,26.692
+        c-2.663,11.608-0.476,21.553,6.567,29.838c7.042,8.278,16.372,12.423,27.983,12.423c20.365,0,37.065-11.324,50.107-33.972
+        c13.038-22.655,19.554-50.159,19.554-82.514c0-24.938-8.042-45.21-24.129-60.813c-16.085-15.609-38.496-23.417-67.239-23.417
+        c-32.161,0-58.192,10.327-78.082,30.978c-19.891,20.654-29.836,45.352-29.836,74.091c0,17.132,4.854,31.505,14.56,43.112
+        c3.235,3.806,4.283,7.898,3.14,12.279c-0.381,1.143-1.141,3.997-2.284,8.562c-1.138,4.565-1.903,7.522-2.281,8.851
+        c-1.521,6.091-5.14,7.994-10.85,5.708c-14.654-6.085-25.791-16.652-33.402-31.689c-7.614-15.037-11.422-32.456-11.422-52.246
+        c0-12.753,2.047-25.505,6.14-38.256c4.089-12.756,10.468-25.078,19.126-36.975c8.663-11.9,19.036-22.417,31.123-31.549
+        c12.082-9.135,26.787-16.462,44.108-21.982s35.972-8.28,55.959-8.28c27.032,0,51.295,5.995,72.8,17.986
+        c21.512,11.992,37.925,27.502,49.252,46.537c11.327,19.036,16.987,39.403,16.987,61.101c0,28.549-4.948,54.243-14.842,77.086
+        c-9.896,22.839-23.887,40.778-41.973,53.813c-18.083,13.042-38.637,19.561-61.675,19.561c-11.607,0-22.456-2.714-32.548-8.135
+        c-10.085-5.427-17.034-11.847-20.839-19.273c-8.566,33.685-13.706,53.77-15.42,60.24c-3.616,13.508-11.038,29.119-22.27,46.819
+        c20.367,6.091,41.112,9.13,62.24,9.13c39.781,0,76.47-9.801,110.062-29.41c33.595-19.602,60.192-46.199,79.794-79.791
+        c19.606-33.599,29.407-70.287,29.407-110.065C438.527,179.485,428.74,142.795,409.141,109.203z"/>
+        </g>
+   </symbol>
+   <symbol id="Dribbble" viewBox="0 0 438.533 438.533">
+        <g>
+            <path d="M409.133,109.203c-19.608-33.592-46.205-60.189-79.798-79.796C295.736,9.801,259.058,0,219.273,0
+        c-39.781,0-76.47,9.801-110.063,29.407c-33.595,19.604-60.192,46.201-79.8,79.796C9.801,142.8,0,179.489,0,219.267
+        c0,39.78,9.804,76.463,29.407,110.062c19.607,33.592,46.204,60.189,79.799,79.798c33.597,19.605,70.283,29.407,110.063,29.407
+        s76.47-9.802,110.065-29.407c33.593-19.602,60.189-46.206,79.795-79.798c19.603-33.596,29.403-70.284,29.403-110.062
+        C438.533,179.485,428.732,142.795,409.133,109.203z M219.27,31.977c47.201,0,88.41,15.607,123.621,46.82l-3.569,4.993
+        c-1.427,2.002-4.996,5.852-10.704,11.565c-5.709,5.708-11.943,11.136-18.699,16.274c-6.762,5.14-15.94,10.992-27.555,17.559
+        c-11.611,6.567-23.982,12.328-37.117,17.276c-21.887-40.355-45.296-76.709-70.231-109.064
+        C190.055,33.784,204.805,31.977,219.27,31.977z M72.524,103.06c18.271-23.026,40.537-40.73,66.806-53.1
+        c23.601,31.405,46.82,67.381,69.662,107.921c-57.862,15.227-115.532,22.841-173.014,22.838
+        C42.072,151.98,54.253,126.091,72.524,103.06z M44.54,286.794c-8.376-21.412-12.563-43.923-12.563-67.527
+        c0-2.666,0.098-4.665,0.286-5.996c68.905,0,132.955-8.848,192.149-26.553c6.092,11.8,11.136,22.364,15.133,31.693
+        c-0.771,0.38-1.999,0.806-3.713,1.283c-1.719,0.476-2.953,0.806-3.721,0.999l-10.561,3.711
+        c-7.236,2.666-16.708,7.235-28.409,13.703c-11.704,6.478-24.123,14.182-37.257,23.13c-13.134,8.949-26.696,20.797-40.684,35.553
+        c-13.99,14.75-25.743,30.591-35.26,47.53C64.713,327.381,52.914,308.2,44.54,286.794z M219.27,406.56
+        c-44.54,0-84.32-14.277-119.343-42.825l4.283,3.142c6.661-14.66,16.462-28.746,29.408-42.257
+        c12.944-13.511,25.41-24.413,37.401-32.695c11.991-8.274,25.028-16.077,39.115-23.414c14.084-7.323,23.691-11.991,28.835-13.983
+        c5.14-1.998,9.233-3.572,12.278-4.716l0.568-0.287h0.575c18.647,48.916,31.977,96.313,39.968,142.184
+        C268.756,401.611,244.397,406.557,219.27,406.56z M376.876,320.479c-14.086,21.796-31.696,39.834-52.817,54.104
+        c-7.81-43.776-19.985-88.415-36.549-133.902c37.877-5.907,76.8-3.142,116.771,8.274
+        C400.092,274.841,390.955,298.687,376.876,320.479z M403.706,216.698c-1.903-0.378-4.285-0.81-7.139-1.283
+        c-2.854-0.473-6.331-1.047-10.424-1.713c-4.087-0.666-8.662-1.283-13.702-1.855c-5.045-0.571-10.421-1.093-16.136-1.569
+        c-5.708-0.478-11.8-0.855-18.268-1.143c-6.479-0.284-13.042-0.428-19.705-0.428c-6.656,0-13.657,0.193-20.981,0.571
+        c-7.326,0.375-14.414,1.049-21.265,1.999c-0.575-0.953-1.287-2.524-2.143-4.714c-0.855-2.187-1.479-3.855-1.848-4.997
+        c-3.621-7.994-7.81-17.036-12.573-27.121c13.134-5.333,25.652-11.469,37.555-18.418c11.892-6.949,21.402-13.131,28.544-18.555
+        c7.139-5.43,13.895-11.188,20.27-17.277c6.379-6.09,10.513-10.323,12.423-12.703c1.906-2.384,3.713-4.714,5.424-6.995l0.287-0.288
+        c27.788,33.88,41.974,72.897,42.538,117.059L403.706,216.698z"/>
+        </g>
+   </symbol>
+</svg>
+
+<!--JavaScript-->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
